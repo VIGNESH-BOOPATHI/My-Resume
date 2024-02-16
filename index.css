@@ -1,0 +1,153 @@
+*{
+  margin: 0px;
+}
+/* .sheet{
+  border: 1px solid black;
+} */
+.sec1{
+  padding-left: 30px;
+  border-right: 1px solid black;
+  height: 100%;
+
+}
+
+.photo-section{
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 310px;
+
+}
+ img{
+  height: 215px;
+  width: 215px;
+  border: 5px dotted goldenrod;
+  border-radius: 50%;
+
+  
+
+ }
+ .name{
+  background-color: goldenrod;
+  /* margin-top: 10px; */
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  left: 24%;
+  bottom: 5px;
+ 
+               
+ }
+.strip{
+  display: flex;
+  align-items: center;
+background-color: white;
+height: 25px;
+width: 100%;
+
+}
+
+#address-section{
+  
+  text-align: center;
+  font-size: 15px;
+  
+}
+p{
+  margin-top: 10px;
+}
+
+hr.dark-hr {
+  border-top: 1px solid #333; /* Dark color for the border */
+   /* Adjust margin as needed */
+}
+.logo{
+  border: 3px dotted goldenrod;
+  width: 38px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.fa{
+  background-color: rgb(48, 45, 45);
+color: goldenrod;
+border-radius: 50%;
+padding: 5px 10px;
+}
+
+.H1{
+  font-size: 30px;
+  display: inline-block;
+  color: rgb(77, 71, 71);
+}
+.para{
+  font-size: large;
+  font-weight: bold;
+  color: #333;
+}
+
+/* this skill section */
+
+.skill-sec{
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+
+.skill {
+  /* margin-bottom: 20px; */
+  display: flex;
+
+}
+
+.skill-name {
+  margin-bottom: 5px;
+  justify-content: space-between;
+ 
+  font-size: larger;
+  font-weight: bold;
+  /* display: inline-block; */
+}
+
+.skill-bar {
+
+  /* padding-top: 10px; */
+  width: 50%;
+  height: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  position: relative;
+  
+  /* display: inline-block; */
+}
+
+.skill-level {
+  height: 100%;
+  border-radius: 5px;
+  background-image: linear-gradient(to right,goldenrod,white);
+  position: relative;
+  overflow: visible;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: rgb(211, 204, 204);
+  border-radius: 50%;
+  box-shadow:1px 1px grey;
+}
+
+
+/* @media screen and (min-width:100px)and(max-width: 1200px) {
+  
+  .sec1{
+    border-right: 1px solid black;
+  }
+} */
